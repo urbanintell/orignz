@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>aNr</title>
+        <!-- Bootstrap Core CSS -->
+        <style>
+        #map-canvas {
+        height: 450px;
+        width: 100%;
+        }
+        #tweets{
+            border-right:1px solid;
+
+        }
+        .row{
+            height: 550px;
+        }
+      #tweets,#spotify{
+        height: 100%;
+      }
+        </style>
+        <!-- Custom CSS -->
+        <link href="css/scrolling-nav.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    </head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    
+        <!-- Intro Section -->
+        <section id="map"  style=" width: 100%;">
+            <div id="map-canvas"></div>
+        </section>
+        <div class="row">
+            
+
+
+            <div id="table_div" class="small-6 large-12 columns">Loading list of artist...</div>
+        </div>
+        <footer class="footer">
+            Powered by <a href="https://d3sevelopers.google.com/maps/">Google Maps</a> and <a href="http://developer.echonest.com/">Echo Nest</a>
+        </footer>
+        
+    </body>
+    <!-- GOOGLE MAPS -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+
+    <!-- GOOGLE VIS -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <!-- JQUERY -->
+    <script src="js/jquery.js"></script>
+    <!-- MAP SCRIPT -->
+    <script type="text/javascript" src="js/map.js"></script>
+    <!-- FOUNDATION -->
+    <!-- Bootstrap Core JavaScript -->
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+</html>
